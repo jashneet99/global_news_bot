@@ -1,0 +1,176 @@
+version: "3.1"
+
+nlu:
+- intent: greet 
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: order_pizza
+  examples: |
+    - pizza
+    - cheeseburst pizza
+    - thin crust pizza
+    - margherita pizza
+    - new york style Pizza
+
+- intent: order_drinks
+  examples: |
+    - beer
+    - wine
+    - coke
+    - sprite
+    - canada dry
+
+- intent: top_headlines
+  examples: |
+    - i am looking for latest news, can you share something?
+    - hey, what happened, can you share some updates
+    - Whats the latest update from world?
+    - Can you give me the current news?
+    - Tell me whats happening in world right now.
+    - Any recent events in world?
+    - Whats the breaking news in world?
+    - Update me on the latest world news.
+    - Can you share the current events in world?
+    - Whats going on in world today?
+    - Give me the recent headlines from world.
+    - Whats new in world?
+    - Can you tell me the top news stories in world?
+    - Whats trending in world news?
+    - Fill me in on the latest news from world.
+    - Whats happening in worldn news?
+    - Can you provide the latest news updates from world?
+
+
+- intent: sports_news
+  examples: |
+    - i am looking for latest sports news from world, can you share something?
+    - hey, what happened in world, can you share some sports updates
+    - Can you give me the latest sports news from world?
+    - Whats the recent sports update from world?
+    - Any new sports highlights from world today?
+    - Please share the latest sports events happening in world.
+    - What are the top sports stories in world right now?
+    - Give me the recent updates on worldn sports.
+    - Whats trending in worldn sports news?
+    - Can you tell me about the current sports news in world?
+    - Are there any major sports events in world recently?
+    - Whats the latest in worldn sports?
+    - Update me on the recent sports news from world.
+    - Whats happening in the world of sports in world?
+    - Any breaking sports news from world?
+    - Whats new in worldn sports this week?
+    - Share the latest sports headlines from world.
+    - Any updates on worldn sports teams?
+    - What are the latest achievements in worldn sports?
+    - Tell me about the current sports scene in world.
+    - What are the latest sports results from world?
+    - Whats the latest on worldn sports personalities?
+
+- intent: business_news
+  examples: |
+    - Can you give me the latest business news from world?
+    - Whats the recent business update from world?
+    - Any new business highlights from world today?
+    - Please share the latest business events happening in world.
+    - What are the top business stories in world right now?
+    - Give me the recent updates on worldn business.
+    - Whats trending in worldn business news?
+    - Can you tell me about the current business news in world?
+    - Are there any major business events in world recently?
+    - Whats the latest in worldn business?
+    - Update me on the recent business news from world.
+    - Whats happening in the world of business in world?
+    - Any breaking business news from world?
+    - Whats new in worldn business this week?
+    - Share the latest business headlines from world.
+    - Any updates on worldn companies?
+    - What are the latest achievements in worldn business?
+    - Tell me about the current business scene in world.
+    - What are the latest market trends in world?
+    - Whats the latest on worldn business leaders?
